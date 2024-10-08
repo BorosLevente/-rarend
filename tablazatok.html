@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<head>
+    <title>Táblázatok</title>
+</head>
+<body>
+    <h1>Táblázatok</h1>
+        <table border="1">
+            <tr>       <!-- a táblázat első sora -->
+                <th>alma</th>   <!-- Ez lesz a táblázatom 1. sorának 1. cellája-->
+                <th>körte</th>
+                <th>banán</th>
+            </tr>
+            <tr>        <!-- a táblázat második sora -->
+                <td>7</td>
+                <td>5</td>
+                <td>3</td>
+            </tr>
+        </table>
+        <p>Cellák összevonása sorokban</p>
+        <table border="1">
+            <tr>
+                <td>valami</td>
+                <td>valami</td>
+                <td>valami</td>
+            </tr>
+            <tr>
+                <td>valami</td>
+                <td colspan="2">valami</td>
+                <!--Összevont cella -->
+            </tr>
+            <tr>
+                <td>valami</td>
+                <td>valami</td>
+                <td>valami</td>
+            </tr>
+            
+        </table>
+        <p>Cellák összevonása oszlopokban</p>
+        <table border="1">
+            <tr>
+                <td>valami</td>
+                <td>valami</td>
+                <td>valami</td>
+            </tr>
+            <tr>
+                <td rowspan="2">valami</td>
+                <td>valami</td>
+                <td>valami</td>
+            </tr>
+            <tr>
+                <!-- Összevont cella -->
+                <td>valami</td>
+                <td>valami</td>
+            </tr>
+        </table>
+        <p> További fealadot összevonásra.</p>
+        <table border="1">
+            <tr>
+            <th colspan="5">Ideiglenes órarend</th>
+            </tr>
+            <tr>
+                <th colspan="2"></th>
+                <th>Hétfő</th>
+                <th>Kedd</th>
+                <th>szerda</th>
+            </tr>
+            <tr>
+                <th>1.</th>
+                <th>07<sup>40</sup> - 08<sup>25</sup></th>
+                <td>matek</td>
+                <td>tesi</td>
+                <td>fizika</td>
+            </tr>
+            <tr>
+                <th>2.</th>
+                <th>08<sup> 30</sup> - 09<sup> 25</sup></th>
+                <td>töri</td>
+                <td rowspan="2">info</td>
+                <td>matek</td>
+            </tr>
+            <tr>
+                <th>3.</th>
+                <th>09<sup>25</sup> - 10<sup>10</sup></th>
+                <td rowspan="2">magyar</td>
+                <td>angol</td>
+            </tr>
+            <tr>
+                <th>4.</th>
+                <th>10<sup>20</sup> - 11<sup>05</sup></th>
+                <td>töri</td>
+                <td>magyar</td>
+        </table>
+        <p>Jelenlegi 9.-es órarendem.</p>
+        <table border="1">
+            <tr>
+                <th colspan="7">Órarend</th>
+            </tr>
+            <tr>
+                <th>Óra</th>
+                <th>Idő</th>
+                <th>Hétfő</th>
+                <th>Kedd</th>
+                <th>Szerda</th>
+                <th>Csütörtök</th>
+                <th>Péntek</th>
+            </tr>
+            <tr>
+                <th>1.</th>
+                <th>7<sup>40</sup> - 8<sup>25</sup></th>
+                <td></td>
+                <td rowspan="3">Informatika és táv.</td>
+                <td rowspan="2">Történelem</td>
+                <td></td>
+                <td>Magyar nyelv</td>
+            </tr>
+            <tr>
+                <th>2.</th>
+                <th>8<sup>30</sup> - 9<sup>15</sup></th>
+                <td>Testnevelés</td>
+                <td rowspan="2">Angol nyelv</td>
+                <td>Komplex természettud.</td>
+            </tr>
+            <tr>
+                <th>3.</th>
+                <th>9<sup>25</sup> - 10<sup>10</sup></th>
+                <td>Komplex természettud.</td>
+                <td>Matematika</td>
+                <td>Osztályfőmöki</td>
+            </tr>
+            <tr>
+                <th>4.</th>
+                <th>10<sup>20</sup> - 11<sup>05</sup></th>
+                <td>Honvédelem</td>
+                <td rowspan="2">Programozási a. gy.</td>
+                <td>Testnevelés</td>
+                <td rowspan="2">Matematika</td>
+                <td>Testnevelés</td>
+            </tr>
+            <tr>
+                <th>5.</th>
+                <th>11<sup>15</sup> - 12<sup>00</sup></th>
+                <td>Irodalom</td>
+                <td rowspan="2">Komplex természettud.</td>
+                <td>Történelem</td>
+            </tr>
+            <tr>
+                <th>6.</th>
+                <th>12<sup>20</sup> - 13<sup>05</sup></th>
+                <td>Magyar nyelv</td>
+                <td rowspan="2">IKT projektmunka</td>
+                <td>Testnevelés</td>
+                <td>Matematika</td>
+            </tr>
+            <tr>
+                <th>7.</th>
+                <th>13<sup>10</sup> - 13<sup>55</sup></th>
+                <td rowspan="2">Digitális kultúra</td>
+                <td rowspan="2">Angol nyelv</td>
+                <td>Irodalom</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>8.</th>
+                <th>14<sup>00</sup> - 14<sup>45</sup></th>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+</body>
+</html>
